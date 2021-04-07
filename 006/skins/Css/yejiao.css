@@ -1,0 +1,91 @@
+ï»		.xiaoheiwu-link{
+			background: #313131;
+    		padding: 20px 0;
+    		color: #a4a4a4;
+    		width: 1200px;
+    		margin: 0 auto;
+		}
+		.footer_xhw6{
+			margin-top: 10px;
+		}
+		.xiaoheiwu-link h3 {
+		    line-height: 30px;
+		    height: 30px;
+		    font-size: 15px;
+		    margin-bottom: 11px;
+                   padding-top: 15px;
+		}
+		.xiaoheiwu-container {
+    		width: 1200px;
+    		margin: 0 auto;
+		}
+		.xiaoheiwu-link ul {
+		    padding: 9px 20px;
+		    padding-bottom: 0;
+		    background: #424242;
+		    height: 35px;
+		    width: 1160px;
+		}
+		.xiaoheiwu-layui-clear {
+    		clear: both;
+		}
+		.xiaoheiwu-link li {
+		    float: left;
+		    margin-right: 20px;
+		    margin-bottom: 9px;
+		}
+		footer {
+		    width: 1200px;
+		    padding: 19px 0px;
+		    background: #313131;
+		    margin: 0 auto;
+		}
+		.xiaoheiwu-left {
+    		float: left;
+		}
+		footer .xiaoheiwu-left {
+		    width: 60%;
+		    color: #a4a4a4;
+		}
+		footer .xiaoheiwu-left img {
+    		margin-bottom: 15px;
+		}
+		footer .xiaoheiwu-left p {
+		    line-height: 26px;
+		    font-size: 14px!important;
+		    width: 720px;
+		    color: #a4a4a4;
+		}
+		footer .xiaoheiwu-left ul {
+		    margin-top: 22px;
+		    border-top: 1px solid #4b4b4b;
+		    padding-top: 15px;
+		}
+		footer .xiaoheiwu-left ul li {
+		    float: left;
+		    margin-right: 21px;
+		}
+		footer .xiaoheiwu-left ul li a {
+		    display: block;
+		    color: #a4a4a4;
+		    font-size: 14px;
+		    height: 32px;
+		    line-height: 32px;
+		}
+		.xiaoheiwu-link li a {
+		    display: block;
+		    color: #bebebe;
+		    line-height: 30px;
+		    height: 30px;
+		    font-size: 14px;
+		}
+		.xiaoheiwu-link-div{
+			width: 100%;
+			background: #313131;
+		}
+
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-track, ::-webkit-scrollbar-thumb { border-radius: 999px; border: 0px solid transparent; }
+::-webkit-scrollbar-track { box-shadow: 1px 1px 5px rgba(100, 100, 100, 0.2) inset; }
+::-webkit-scrollbar-thumb { min-height: 0px; background-clip: content-box; box-shadow: 0 0 0 5px rgba(100, 100, 100, 0.5) inset; }
+::-webkit-scrollbar-corner { background: transparent; }

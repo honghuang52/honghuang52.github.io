@@ -1,0 +1,1 @@
+document.write("<li><a href=\"/url/news/43.html\" title=\"头条日报网\">头条日报网</a></li>");
