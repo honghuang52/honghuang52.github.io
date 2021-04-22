@@ -1,1 +1,0 @@
-document.write("<a href='/e/public/ClickAd?adid=8' target=_blank><img src='/d/file/p/2018/12-09/d50063a1d9843d236b5ca29ec3f46ecd.gif' border=0 width='445' height='70' alt=''></a>");

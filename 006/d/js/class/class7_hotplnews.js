@@ -1,1 +1,0 @@
-document.write("<li><a href=\"/url/shouyou/105.html\" title=\"刺激冒险\">刺激冒险</a></li><li><a href=\"/url/shouyou/106.html\" title=\"王者荣耀\">王者荣耀</a></li><li><a href=\"/url/shouyou/107.html\" title=\"QQ炫舞\">QQ炫舞</a></li><li><a href=\"/url/shouyou/108.html\" title=\"天天酷跑\">天天酷跑</a></li>");

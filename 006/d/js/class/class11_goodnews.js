@@ -1,1 +1,0 @@
-document.write("<li><a href=\"/url/zixue/70.html\" title=\"人人自学网\">人人自学网</a></li>");

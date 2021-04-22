@@ -1,1 +1,0 @@
-document.write("<li><a href=\"/url/boke/37.html\" title=\"小清新博客\">小清新博客</a></li><li><a href=\"/url/boke/45.html\" title=\"林大大博客\">林大大博客</a></li><li><a href=\"/url/boke/91.html\" title=\"杨小杰博客\">杨小杰博客</a></li><li><a href=\"/url/boke/101.html\" title=\"乔越博客\">乔越博客</a></li>");

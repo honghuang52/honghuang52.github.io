@@ -1,1 +1,0 @@
-document.write("<li><a href=\"/url/gouwu/12.html\" title=\"淘宝优惠劵\">淘宝优惠劵</a></li>");
