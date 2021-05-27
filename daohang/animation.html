@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+<title>HTML5+CSS3自定义视频播放器 - 站长素材</title>
+
+<link rel='stylesheet' type='text/css' href='style.css' />
+<style type="text/css">
+
+</style>
+
+<script src='jquery.js'></script>
+
+<script src='javascript.js'></script>
+
+<script type='text/javascript'>
+
+$(document).ready(function() {
+	$('video').videoPlayer({
+		'playerWidth' : 0.95,
+		'videoClass' : 'video'	
+	});
+});
+
+</script>
+
+</head>
+<body>
+
+<div class="container">
+	<video width="700" height="400">
+		<source src="movie.mp4" type="video/mp4">
+		<source src="movie.webm" type="video/webm">
+	</video>
+</div>
+<div style="text-align:center;clear:both">
+
+</div>
+</body>
+</html>
