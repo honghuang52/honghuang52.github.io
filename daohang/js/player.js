@@ -26,60 +26,19 @@ class Musics {
     constructor() {
         this.songs = [{
                 id: 1,
-                title: '前前前世 (movie ver.)',
-                singer: '前前前世 (movie ver.) - RADWIMPS',
-                songUrl: './songs/前前前世 (movie ver.) - RADWIMPS.mp3',
+                title: '动画bgm',
+                singer: '动画bgm',
+                songUrl: './songs/动画bgm.mp3',
                 imageUrl: './images/songs/你的名字.jpg'
             },
             {
                 id: 2,
-                title: 'なんでもないや (movie ver.) - RADWIMPS',
-                singer: 'なんでもないや (movie ver.) - RADWIMPS',
-                songUrl: './songs/なんでもないや (movie ver.) - RADWIMPS.mp3',
+                title: '梨园小记',
+                singer: '梨园小记',
+                songUrl: './songs/梨园小记.mp3',
                 imageUrl: './images/songs/你的名字.jpg'
             },
-			{
-                id: 3,
-                title: 'なんでもないや (movie edit) - RADWIMPS',
-                singer: 'なんでもないや (movie edit) - RADWIMPS',
-                songUrl: './songs/なんでもないや (movie edit) - RADWIMPS.mp3',
-                imageUrl: './images/songs/你的名字.jpg'
-            },
-            {
-                id: 4,
-                title: '夢灯籠 - RADWIMPS',
-                singer: '夢灯籠 - RADWIMPS',
-                songUrl: './songs/夢灯籠 - RADWIMPS.mp3',
-                imageUrl: './images/songs/你的名字.jpg'
-            },
-			{
-                id: 5,
-                title: '愛にできることはまだあるかい - RADWIMPS',
-                singer: '愛にできることはまだあるかい - RADWIMPS',
-                songUrl: './songs/愛にできることはまだあるかい - RADWIMPS.mp3',
-                imageUrl: './images/songs/天气之子.jpg'
-            },
-			{
-                id: 6,
-                title: '愛にできることはまだあるかい (Movie edit) - RADWIMPS',
-                singer: '愛にできることはまだあるかい (Movie edit) - RADWIMPS',
-                songUrl: './songs/愛にできることはまだあるかい (Movie edit) - RADWIMPS.mp3',
-                imageUrl: './images/songs/天气之子.jpg'
-            },
-			{
-                id: 7,
-                title: 'グランドエスケープ (Movie edit) - 三浦透子',
-                singer: 'グランドエスケープ (Movie edit) - 三浦透子',
-                songUrl: './songs/グランドエスケープ (Movie edit) - 三浦透子.mp3',
-                imageUrl: './images/songs/天气之子.jpg'
-            },
-			{
-                id: 8,
-                title: 'ふたたびの、雨 - RADWIMPS',
-                singer: 'ふたたびの、雨 - RADWIMPS',
-                songUrl: './songs/ふたたびの、雨 - RADWIMPS.mp3',
-                imageUrl: './images/songs/天气之子.jpg'
-            },
+			
         ]
     }
     //根据索引获取歌曲的方法
