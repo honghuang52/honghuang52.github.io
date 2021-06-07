@@ -1,92 +1,107 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>3D</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>图片</title>
+    <style>
+.one{
+    display: block;
+    float: left;
+    margin: 0 65px 0 0;
+}
+
+#cont{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.ima{
+	width: 200px;
+	padding: 18px;
+	margin: 30px;
+	background-color: #FFFFFF;
+	transition: transform 0.8s;
+	-webkit-transform: transform 0.8s;
+}
+
+.ima:hover{
+	transform: scale(1.5) rotate(0deg) !important;
+}
+
+#a{
+	transform: rotate(12deg);
+}
+
+#b{
+	transform: rotate(-5deg);
+}
+
+#c{
+	transform: rotate(10deg);
+}
+
+#d{
+	transform: rotate(8deg);
+}
+
+
+    </style>
 </head>
-<style>
-    body{
-        padding: 0px;
-        margin: 0px;
-        overflow: hidden;
-        background-image: url("images/77.jpg");
-        background-size:cover;
-    }
-    .bg{
-
-        position :absolute;
-        width: 400px;
-        height: 400px;
-        border-radius: 50px;
-
-    }
-    .box{
-        width: 133px;
-        height: 200px;
-        margin: 300px auto;
-        transform-style: preserve-3d;
-        transform: rotateX(-12deg) rotateY(0deg);
-
-    }
-    .box img {
-        position: absolute;
-        width: 250px;
-        height: 380px;
-        -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(15%, transparent) , to(rgba(250, 250, 250, 0.3)));
-    }
-  
-</style>
 <body>
-    <div class="worp">
-        <div class="box">
-            <img src="images/1.jpg">
-            <img src="images/2.jpg">
-            <img src="images/3.jpg">
-            <img src="images/4.jpg">
-            <img src="images/5.jpg">
-            <img src="images/6.jpg">
-            <img src="images/7.jpg">
-            <img src="images/8.jpg">
-            <img src="images/9.jpg">
-            <img src="images/10.jpg">
-            <img src="images/11.jpg">
-        </div>
-    </div>
+   
+<center>
+<marquee scrollamount="10">
+
+<img src="images/tubiao/bilibili-fill.png">
+<img src="images/tubiao/GitHub.png">
+<img src="images/tubiao/PPT.png">
+<img src="images/tubiao/steam.png">
+<img src="images/tubiao/京东.png">
+<img src="images/tubiao/优酷.png">
+<img src="images/tubiao/头条样式.png">
+<img src="images/tubiao/搜.png">
+<img src="images/tubiao/操作-翻译.png">
+<img src="images/tubiao/海.png">
+<img src="images/tubiao/淘宝.png">
+<img src="images/tubiao/爱奇艺.png">
+<img src="images/tubiao/百度.png">
+<img src="images/tubiao/百度云.png">
+<img src="images/tubiao/百度地图.png">
+<img src="images/tubiao/知乎.png">
+<img src="images/tubiao/腾讯云.png">
+<img src="images/tubiao/腾讯视频.png">
+
+</marquee>
+</center>
+
+<div>
+<span>
+      <img src="images/音乐背景.jpg" class="one" width="350" height="250">
+</span>
+
+<span>
+    <img src="images/视频背景.jpg" class="one" width="350" height="250">
+</span>
+
+<span>
+    <img src="images/背景.JPG" class="one" width="350" height="250">
+</span>
+</div>
+
+
+<div id="cont">
+			
+    <img src="images/米奇.PNG" class="ima" id="a">
+    
+    <img src="images/米妮.PNG" class="ima" id="b">
+    
+    <img src="images/唐老鸭.PNG" class="ima" id="c">
+    
+    <img src="images/布鲁托.PNG" class="ima" id="d">
+</div>
+
 </body>
-    <script>
-        var old_X,old_Y,onum_Y = -12,onum_X = 0,mdown_X,mdown_Y,sum_X = 0,sum_Y = 0;
-        var oimg = document.getElementsByTagName("img");
-        var obox = document.querySelector(".box");
-        var olength = oimg.length;
-        var odeg = 360 /olength;
-        window.onload = function (){
-            Array.prototype.forEach.call(oimg,function (ele,index,self) {
-                ele.style.transform = "rotateY("+ odeg*index+"deg) translateZ(650px)";
-                ele.style.transition = "1s"+"+"+(olength-index)*0.15+"s";
-            })
-        }
-        function startTime() {
-            var y_time = 0;
-            obox.style.transform = "rotateY("+y_time+"deg)";
-            y_time++;
-            t= setTimeout("startTime()",500);
-        }
-        document.onmousedown = function (e) {
-            e.preventDefault();
-           old_X = e.clientX;
-           old_Y = e.clientY;
-           document.onmousemove = function (e) {
-               obox.style.transform = "rotateX("+onum_Y+"deg)"+"rotateY("+onum_X+"deg)";
-                mdown_X = e.clientX ;
-                mdown_Y = e.clientY ;
-                onum_X =onum_X+(mdown_X - old_X)*0.3 ;
-                onum_Y -= (mdown_Y -old_Y)*0.3;
-                old_Y = mdown_Y;
-                old_X = mdown_X;
-           }
-           document.onmouseup = function () {
-               document.onmousemove = null;
-           }
-        }
-    </script>
 </html>
