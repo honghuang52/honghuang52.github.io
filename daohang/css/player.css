@@ -243,37 +243,6 @@
 }
 
 
-/* 播放 画片 动画 */
-
-@-webkit-keyframes disc {
-    from {
-        -webkit-transform: rotate(0deg);
-        transform: rotate(0deg);
-    }
-
-    to {
-        -webkit-transform: rotate(360deg);
-        transform: rotate(360deg);
-    }
-}
-
-@keyframes disc {
-    from {
-        -webkit-transform: rotate(0deg);
-        transform: rotate(0deg);
-    }
-
-    to {
-        -webkit-transform: rotate(360deg);
-        transform: rotate(360deg);
-    }
-}
-
-.music-player__image.play {
-    -webkit-animation: disc 5s linear 0s infinite;
-    animation: disc 5s linear 0s infinite;
-}
-
 
 /*  播放进度  */
 
