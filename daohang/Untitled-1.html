@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lean's Video Player</title>
+</head>
+<body background="images/视频背景.jpg">
+ 
+<center>
+    <video id="video" width="50%" height="70%"  controls type="video/mp4"></video> 
+
+<p>视频选择： <input type="file" id="file" accept="video/*" onchange="getvl(this)" /></p> 
+</center>
+ 
+<script type="text/javascript">
+
+function getvl(obj){
+var url = null;  
+var fileObj = document.getElementById("file").files[0];
+if (window.createObjcectURL != undefined) {  
+    url = window.createOjcectURL(fileObj);  
+} 
+
+else if (window.URL != undefined) {  
+    url = window.URL.createObjectURL(fileObj);  
+} else if (window.webkitURL != undefined) {  
+    url = window.webkitURL.createObjectURL(fileObj);  
+}
+ 
+ video.src=url;
+}
+</script>
+</body>
+</html>
