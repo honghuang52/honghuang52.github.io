@@ -1,0 +1,4 @@
+/**
+ * Created by A.J on 2016/10/16.
+ */
+$(document).ready(function(){$("#catfishtijiaoliuyan").click(function(){var i=$(this);i.children("span:eq(1)").hasClass("hidden")&&$("#catfish").length>0&&(i.children("span:eq(0)").removeClass("hidden"),i.children("span:eq(1)").addClass("hidden"),$.post($("#webroot").text()+"index/Index/liuyan",$("#catfishliuyan").serialize(),function(a){i.children("span:eq(0)").addClass("hidden"),"ok"==a?($("#catfishliuyantishi").text(""),i.children("span:eq(1)").removeClass("hidden")):$("#catfishliuyantishi").text(a)}))}),$("nav,.panel,.breadcrumb").css("background","rgba(255,255,255,0.85)"),new WOW({boxClass:"wow",animateClass:"animated",offset:100,mobile:!0,live:!0}).init()});
