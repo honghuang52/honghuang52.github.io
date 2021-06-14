@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>图片</title>
+    <style>
+.one{
+    display: block;
+    float: left;
+    margin: 0 65px 0 0;
+}
+
+#cont{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.ima{
+	width: 200px;
+	padding: 18px;
+	margin: 30px;
+	background-color: #FFFFFF;
+	transition: transform 0.8s;
+	-webkit-transform: transform 0.8s;
+}
+
+.ima:hover{
+	transform: scale(1.5) rotate(0deg) !important;
+}
+
+#a{
+	transform: rotate(12deg);
+}
+
+#b{
+	transform: rotate(-5deg);
+}
+
+#c{
+	transform: rotate(10deg);
+}
+
+#d{
+	transform: rotate(8deg);
+}
+
+
+    </style>
+</head>
+<body>
+   
+
+<marquee scrollamount="10">
+<div>
+<span>
+      <img src="images/音乐背景.jpg" class="one" width="350" height="250">
+</span>
+
+<span>
+    <img src="images/视频背景.jpg" class="one" width="350" height="250">
+</span>
+
+<span>
+    <img src="images/导航背景.png" class="one" width="350" height="250">
+</span>
+</div>
+</marquee>
+
+<div id="cont">
+			
+    <img src="images/米奇.PNG" class="ima" id="a">
+    
+    <img src="images/米妮.PNG" class="ima" id="b">
+    
+    <img src="images/唐老鸭.PNG" class="ima" id="c">
+    
+    <img src="images/布鲁托.PNG" class="ima" id="d">
+</div>
+
+</body>
+</html>
